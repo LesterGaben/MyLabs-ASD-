@@ -20,7 +20,7 @@ int main() {
     }
     output_matrix(A, m, n);
     int i = 0;
-    double X = 100;
+    double X = A[0][0];
     int last_min_M, last_min_N, temp_1;
     for (int j = 0; j < n; j++) {
         if (i == 0 || i == -1) {
